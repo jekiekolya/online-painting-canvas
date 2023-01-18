@@ -1,0 +1,65 @@
+@import './variables';
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: $toolbar-height;
+  padding: 0 40px;
+
+  background-color: white;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+
+  &__btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .brush {
+    background-image: url('../assets/images/brush.png');
+  }
+  .rect {
+    background-image: url('../assets/images/rect.png');
+  }
+  .circle {
+    background-image: url('../assets/images/circle.png');
+  }
+  .eraser {
+    background-image: url('../assets/images/eraser.png');
+  }
+  .line {
+    background-image: url('../assets/images/line.png');
+  }
+  .rainbow {
+    background-image: url('../assets/images/rainbow.png');
+  }
+  .undo {
+    background-image: url('../assets/images/undo.png');
+  }
+  .redo {
+    background-image: url('../assets/images/redo.png');
+  }
+  .save {
+    background-image: url('../assets/images/save.png');
+  }
+}
+
+.settings-bar {
+  height: $toolbar-height;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: $toolbar-height;
+}
