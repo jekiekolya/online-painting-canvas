@@ -1,7 +1,6 @@
 import Tool from './Tool';
 
 export default class Brush extends Tool {
-  // eslint-disable-next-line no-useless-constructor
   constructor(canvas) {
     super(canvas);
     this.listen();
