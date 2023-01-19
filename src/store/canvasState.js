@@ -2,6 +2,7 @@ const { makeAutoObservable } = require('mobx');
 
 class CanvasState {
   canvas = null;
+
   constructor() {
     makeAutoObservable(this);
   }
