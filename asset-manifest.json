@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/online-painting-canvas/static/css/main.96509869.css",
+    "main.js": "/online-painting-canvas/static/js/main.40f9f67e.js",
+    "index.html": "/online-painting-canvas/index.html",
+    "main.96509869.css.map": "/online-painting-canvas/static/css/main.96509869.css.map",
+    "main.40f9f67e.js.map": "/online-painting-canvas/static/js/main.40f9f67e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96509869.css",
+    "static/js/main.40f9f67e.js"
+  ]
+}
