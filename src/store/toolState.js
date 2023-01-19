@@ -2,6 +2,7 @@ const { makeAutoObservable } = require('mobx');
 
 class ToolState {
   tool = null;
+
   constructor() {
     makeAutoObservable(this);
   }
